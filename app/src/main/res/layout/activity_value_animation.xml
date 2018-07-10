@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_1"
+        android:text="xxxx"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+    <TextView
+        android:id="@+id/tv_2"
+        android:text="xxxx2"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+    <TextView
+        android:id="@+id/tv_3"
+        android:text="xxxx3"
+        android:gravity="center"
+        android:background="#ff00ff"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+    <Button
+        android:id="@+id/btn_show"
+        android:text="start"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
